@@ -1,4 +1,8 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #008ecc;
     background-color: #F8CBC7;
 } 
@@ -6,3 +10,19 @@ body{
 img {
     width: 200px;
 }
+
+div{
+    width: 500px;
+    text-align: center;
+    
+}
+
+div p {
+    font-size: 35px;
+    
+}
+
+h1 {
+    font-size: 60px;
+}
+
