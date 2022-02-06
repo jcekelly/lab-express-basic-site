@@ -12,15 +12,12 @@ app.get('/',(req, res) => {
 
 })
 
-app.get('/info',(req, res) => {
-   console.log('Info  page')
-   res.sendFile(__dirname + `/views/info-page.html`)
+app.get('/bio',(req, res) => {
+   console.log('Bio')
+   res.sendFile(__dirname + `/views/bio.html`)
 
 })
 
-app.get('/about',(req,res) => {
-    res.send('<h1>this is the about page</h1>')
-})
 
 app.listen(port, () => {
     console.log(`listening on port ${port}`)
