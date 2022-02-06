@@ -12,7 +12,7 @@ img {
 }
 
 div{
-    width: 500px;
+    width: 700px;
     text-align: center;
     
 }
@@ -27,7 +27,7 @@ h1 {
 }
 
 .bioText {
-    font-size: 30px;
+    font-size: 17px;
 }
 
 
@@ -56,6 +56,13 @@ h1 {
 
 .home-img {
     width: 500px;
-    padding: 100px;
+    padding: 50px;
+
+}
+
+.link {
+   text-decoration: underline;
+   color: #008ecc;
+   font-size: 30px;
 
 }
